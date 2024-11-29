@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Club Registration Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-image: url("rbg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: gill sans, sans-serif; 
+    
+    h1{
+      text-align: center;
+    }
+
+    }
+    .container1{
+      background-color: #485863;
+      border: 4px solid #38464f;
+      border-radius: 15px;
+      margin: 30px;
+      opacity: 80%;
+
+    }
+
+    .row{
+      margin-left: 50px;
+    }
+
+    input[type="Checkbox"], label, input[type="Radio"], select, textarea{
+      margin-left: 50px;
+    }
+    
+    button{
+      margin-left: 50px;
+    }
+
+
+
+
+    
+  </style>
+</head>
+<div class="container1">
+  <h1>Robotics Club Registration Form</h1>
+  <form>
+    <div class="form-group">
+      <div class="row">
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Name</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Age</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Email Address</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+        <div class="col-sm-14 col-md-8 col-lg-6 col-xl-5 col-demo m-4">
+          <label for="example_Email">Phone Number</label>
+          <input type="email" class="form-control" id="example_Email">
+        </div>
+    </div>
+
+    <label for="">Preferred Robotics Topics</label> <br>
+    <input type="Checkbox" id="check" name="check"> Programming <br>
+    <input type="Checkbox" id="check" name="check"> Electronics <br>
+    <input type="Checkbox" id="check" name="check"> Mechanicaal Design <br>
+
+    <label for="radio">Robotics Experience Level</label> <br>
+    <input type="Radio" id="radio1" name="radio" value="Batch 1"> Beginner <br>
+    <input type="Radio" id="radio2" name="radio" value="Batch 2"> Intermediate <br>
+    <input type="Radio" id="radio2" name="radio" value="Batch 2"> Advanced <br><br>
+
+    <label for="select">Preferred Robotics Project</label><br>
+    <select id="select" name="select">
+      <option value="Project 1">Project 1</option>
+      <option value="Project 2">Project 2</option>
+      <option value="Project 3">Project 3</option>
+      <option value="Project 4">Project 4</option>
+      <option value="Project 5">Project 5</option>
+    </select><br><br>
+
+    <label>Statement of Interest</label><br>
+    <textarea id="textarea" name="textarea" rows="3" cols="35"></textarea><br><br>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form>
+</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
